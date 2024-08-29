@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓᴄσмє fσʀ 🅓🅗🅟🅡 ʀєρσѕ ✪
+✪ ωεℓᴄσмє fσʀ 𝐑𝐎𝐋𝐋𝐄𝐗 ʀєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -36,20 +36,20 @@ async def start(_, msg):
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/OWNER_DHPR"),
           ],
                [
-                InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+                InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
 
 ],
 [
-              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-              InlineKeyboardButton("︎🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("︎𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
               ],
               [
-              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
 ],
 [
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepking88/DHPROP"),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -78,7 +78,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Deepking88/DHPROP) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/exampurrs)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Deepking88/DHPROP) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/love_in_timeee)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
