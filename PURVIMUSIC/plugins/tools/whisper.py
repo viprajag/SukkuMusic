@@ -20,7 +20,7 @@ async def _whisper(_, inline_query):
                 title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                 description=f"@Sukku_music_bot [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@Sukku_music_bot [ USERNAME | ID ] [ TEXT ]"),
-                thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
+                thumb_url="https://files.catbox.moe/78yxg1.jpg",
                 reply_markup=switch_btn
             )
         ]
@@ -39,7 +39,7 @@ async def _whisper(_, inline_query):
                     title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                     description="Invalid username or ID!",
                     input_message_content=InputTextMessageContent("Invalid username or ID!"),
-                    thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
+                    thumb_url="https://files.catbox.moe/78yxg1.jpg",
                     reply_markup=switch_btn
                 )
             ]
@@ -52,14 +52,14 @@ async def _whisper(_, inline_query):
                     title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                     description=f"Send a Whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"😍 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
+                    thumb_url="https://files.catbox.moe/78yxg1.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                     description=f"Send a one-time whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"😍 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
+                    thumb_url="https://files.catbox.moe/78yxg1.jpg",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -112,7 +112,7 @@ async def in_help():
             title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
             description=f"@Sukku_music_bot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Sukku_music_bot (Target Username or ID) (Your Message).\n\n**Example:**\n@Sukku_music_bot @username I Wanna fuck You"),
-            thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
+            thumb_url="https://files.catbox.moe/78yxg1.jpg",
             reply_markup=switch_btn
         )
     ]
