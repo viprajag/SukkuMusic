@@ -55,7 +55,7 @@ InlineKeyboardButton("𝐑𝐎𝐋𝐋𝐄𝐗", url=f"https://github.com/Deepki
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/1d2c51b0100039270cc8c.jpg",
+        photo="https://files.catbox.moe/w8zztq.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
