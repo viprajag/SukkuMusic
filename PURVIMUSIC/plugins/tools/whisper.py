@@ -18,8 +18,8 @@ async def _whisper(_, inline_query):
         mm = [
             InlineQueryResultArticle(
                 title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
-                description=f"@Sukku_music_bot [ USERNAME | ID ] [ TEXT ]",
-                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@Sukku_music_bot [ USERNAME | ID ] [ TEXT ]"),
+                description=f"@nysamusicbot [ USERNAME | ID ] [ TEXT ]",
+                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@nysamusicbot [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://files.catbox.moe/78yxg1.jpg",
                 reply_markup=switch_btn
             )
@@ -110,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
-            description=f"@Sukku_music_bot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Sukku_music_bot (Target Username or ID) (Your Message).\n\n**Example:**\n@Sukku_music_bot @username I Wanna fuck You"),
+            description=f"@nysamusicbot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@nysamusicbot (Target Username or ID) (Your Message).\n\n**Example:**\n@nysamusicbot @username I Wanna fuck You"),
             thumb_url="https://files.catbox.moe/78yxg1.jpg",
             reply_markup=switch_btn
         )
