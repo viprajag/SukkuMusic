@@ -6,6 +6,8 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     Message,
+    InputMediaPhoto,
+    InputMediaVideo,
 )
 
 from PURVIMUSIC import app
@@ -48,6 +50,17 @@ async def settings_mar(client, message: Message, _):
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
+
+@app.on_callback_query(filters.regex("gib_source") & ~BANNED_USERS)
+@languageCB
+async def gib_repo(client, CallbackQuery, _):
+    await CallbackQuery.edit_message_media(
+        InputMediaVideo("https://files.catbox.moe/poykin.mp4"),
+        reply_markup=InlineKeyboardMarkup(
+            [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
+        ),
+    )
+    
 
 @app.on_callback_query(filters.regex("settings_helper") & ~BANNED_USERS)
 @languageCB
